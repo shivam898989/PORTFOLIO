@@ -1,0 +1,27 @@
+.footer {
+  background: #0a0a0a;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-content p {
+  color: #888;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.heart-icon {
+  color: #e74c3c;
+  margin: 0 5px;
+  animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
