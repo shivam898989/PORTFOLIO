@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { 
   FaReact, FaNodeJs, FaPython, FaJsSquare, FaHtml5, FaCss3Alt, 
-  FaGitAlt, FaAws, FaDatabase 
+  FaGitAlt, FaAws 
 } from 'react-icons/fa';
 import { 
   SiTypescript, SiMongodb, SiExpress, SiNextdotjs, 
